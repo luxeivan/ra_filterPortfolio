@@ -1,0 +1,25 @@
+.filter__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter__item {
+
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.filter__button {
+    padding: 5px 10px 5px 10px;
+    color: black;
+    background-color: #fff;
+    border: 1px solid #222;
+}
+.filter__button:hover {
+    background-color: #ccc;
+}
+.filter__button.active {
+    color: white;
+    background-color: #222;
+}

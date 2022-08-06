@@ -1,0 +1,23 @@
+.project__list {
+    list-style: none;
+    column-count:3;
+
+}
+
+.project__item {
+    margin-bottom: 10px;
+}
+.project__img{
+    width: 100%;
+}
+
+@media (max-width: 767px){
+    .project__list {
+        column-count:2;
+    }
+}
+@media (max-width: 576px){
+    .project__list {
+        column-count:1;
+    }
+}
